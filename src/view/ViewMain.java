@@ -29,10 +29,15 @@ public class ViewMain extends javax.swing.JFrame {
 
         jMenuBar1 = new javax.swing.JMenuBar();
         jmBar1 = new javax.swing.JMenu();
+        jmiProveedores = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jmBar1.setText("File");
+
+        jmiProveedores.setText("Proveedores");
+        jmBar1.add(jmiProveedores);
+
         jMenuBar1.add(jmBar1);
 
         setJMenuBar(jMenuBar1);
@@ -41,11 +46,11 @@ public class ViewMain extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGap(0, 903, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 279, Short.MAX_VALUE)
+            .addGap(0, 461, Short.MAX_VALUE)
         );
 
         pack();
@@ -89,5 +94,6 @@ public class ViewMain extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuBar jMenuBar1;
     public javax.swing.JMenu jmBar1;
+    public javax.swing.JMenuItem jmiProveedores;
     // End of variables declaration//GEN-END:variables
 }
